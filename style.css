@@ -1,0 +1,14 @@
+ul {
+  list-style-type: circle;
+  list-style-position: inside;
+  list-style-image: url(images/tick.svg);
+  list-style: circle inside url(images/tick.svg);
+  background-color: gray;
+}
+
+li:hover {
+  background-color: gainsboro;
+}
+li {
+  margin-top: 10px;
+}
